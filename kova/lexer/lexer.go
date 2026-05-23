@@ -1,11 +1,10 @@
 package lexer
 
 type Lexer struct {
-inputstring
-positionint
+input string 
+position int
 readPosition int
-ch
-byte 
+ch byte 
 }
 
 func New(input string) *Lexer {
