@@ -1,5 +1,7 @@
 package lexer
 
+import "../token"
+
 type Lexer struct {
 	input        string
 	position     int
@@ -12,6 +14,7 @@ func New(input string) *Lexer {
 	return l
 }
 
+// readChar() helper
 func (l *Lexer) readChar() {
 	if l.readPosition >= len(l.input) {
 		l.ch = 0
@@ -21,3 +24,4 @@ func (l *Lexer) readChar() {
 	l.position = l.readPosition
 	l.readPosition += 1
 }
+
