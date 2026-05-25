@@ -1,6 +1,6 @@
 package lexer
 
-import "github.com/cybug/kova/token"
+import "github.com/cybug/kova/token";
 
 type Lexer struct {
 	input        string
@@ -11,6 +11,7 @@ type Lexer struct {
 
 func New(input string) *Lexer {
 	l := &Lexer{input: input}
+	l.readChar();
 	return l
 }
 
