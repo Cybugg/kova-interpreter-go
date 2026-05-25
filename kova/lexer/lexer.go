@@ -1,6 +1,6 @@
 package lexer
 
-import "../token"
+import "github.com/cybug/kova/token"
 
 type Lexer struct {
 	input        string

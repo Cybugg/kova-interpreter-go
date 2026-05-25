@@ -1,7 +1,7 @@
 package lexer
 import (
 "testing"
-"../token"
+"github.com/cybug/kova/token"
 )
 
 func TestNextToken(t *testing.T) {
