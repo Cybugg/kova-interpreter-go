@@ -37,7 +37,7 @@ var Keywords = map[string]TokenType{
 	"let": LET,
 }
 
-func lookupIdent(ident string) TokenType{
+func LookupIdent(ident string)TokenType{
 	if tok, ok := Keywords[ident]; ok {
 		return  tok
 	}
