@@ -15,7 +15,6 @@ const (
 	IDENT = "IDENT"
 	INT   = "INT"
 
-
 	// Delimiters
 	COMMA     = ","
 	SEMICOLON = ";"
@@ -27,6 +26,11 @@ const (
 	// Keywords
 	FUNCTION = "FUNCTION"
 	LET      = "LET"
+	TRUE     = "TRUE"
+	FALSE    = "FALSE"
+	IF       = "IF"
+	ELSE     = "ELSE"
+	RETURN   = "RETURN"
 
 	// Operators
 	ASSIGN   = "="
